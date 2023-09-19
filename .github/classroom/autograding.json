@@ -15,7 +15,7 @@
       "setup": "make",
       "run": "./bin/geometria triangulo 5",
       "input": "",
-      "output": "Area do triangulo: 21.65064\nPerimetro do triangulo: 15",
+      "output": "Area do triangulo: 10.825317547305\nPerimetro do triangulo: 15",
       "comparison": "included",
       "timeout": 2,
       "points": 12.5
