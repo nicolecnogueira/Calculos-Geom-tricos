@@ -45,7 +45,7 @@
       "setup": "make",
       "run": "./bin/geometria piramide 15 21",
       "input": "",
-      "output": "Area da piramide: 854.6\nVolume da piramide: 1470",
+      "output": "Area da piramide: 893.973\nVolume da piramide: 1575",
       "comparison": "included",
       "timeout": 2,
       "points": 12.5
