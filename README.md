@@ -1,7 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/E25z5_aH)
-# Laboratório 1
-
-<img alt="points bar" align="right" height="36" src="../../blob/status/.github/activity-icons/points-bar.svg" />
+# Cálculos Geométricos
 
 A Geometria é fundamental para resolver problemas em agricultura, astronomia, arquitetura e engenharia. Dentre as divisões da Geometria, encontram-se as chamadas Geometria Plana e Geometria Espacial. A Geometria Plana refere-se ao estudo das figuras geométricas definidas em um plano de duas dimensões, enquanto que a Geometria Espacial se encarrega do estudo das figuras geométricas (também chamadas de sólidos geométricos) definidas no espaço, ou seja, aquelas que possuem mais de duas dimensões e ocupam um lugar no espaço. As principais figuras geométricas planas são o triângulo, o quadrado, o retângulo e o círculo. Já as principais figuras geométricas espaciais são o cubo, a esfera, o cone, a pirâmide, o paralelepípedo e o cilindro.
 
@@ -9,18 +7,10 @@ Três conceitos são de suma importância para o entendimento das Geometrias Pla
 
 **Área, perímetro e volume de figuras geométricas planas e espaciais**
 
-As Tabelas 1 e 2 apresentam a definição das principais figuras geométricas planas e espaciais, bem como as fórmulas utilizadas para calcular as medidas de área, perímetro e volume. É importante notar que, pelo fato de as figuras geométricas planas serem definidas em um plano de duas dimensões, elas não possuem volume.
 
-![alt](./pics/tabela1.png)
-![alt](./pics/tabela2.png)
+# O programa
 
-+ para a pirâmide, considere que a entrada do programa é o valor de um dos lados da base e a altura de um dos triangulos da face lateral.
-
-# Tarefa
-
-Implemente um programa em C++ que permita calcular as medidas de diversas figuras geométricas planas e espaciais. O programa deverá receber, por meio da linha de comando, a indicação da forma geométrica e os dados necessários para os cálculos. Como resultado, o programa deve exibir as respectivas medidas (área, perímetro ou volume) da figura escolhida. **Note que, para figuras geométricas planas, o programa deve exibir apenas a área e o perímetro; para figuras geométricas espaciais, o programa deve exibir apenas a área e o volume da figura.** Para calcular tais medidas, você deve fazer uso das equações matemáticas apresentadas nas Tabelas 1 e 2, além dos seus próprios conhecimentos matemáticos na área de Geometria.
-
-Na implementação das funções que calculam as medidas de área, perímetro e volume das figuras, você pode fazer uso da biblioteca `<cmath>`. Dentre as funções disponibilizadas por essa biblioteca, existem: (i) a função `pow`, que realiza a operação de potenciação de uma base e um expoente, recebidos como parâmetro, e (ii) a função `sqrt`, que calcula a raiz quadrada de um número recebido como parâmetro.
+O programa permite calcular as medidas de diversas figuras geométricas planas e espaciais de maneira automática. O código recebe, por meio da linha de comando, a indicação da forma geométrica e os dados necessários para os cálculos. Como resultado, o programa exibe as respectivas medidas (área, perímetro ou volume) da figura escolhida.
 
 **Exemplos de entrada e saída**
 
@@ -28,11 +18,5 @@ Conforme mencionado anteriormente, o programa em execução deve receber por lin
 
 ![alt](./pics/exemplo1.png)
 
-## Orientações gerais
-+ Inclua seus arquivos nas pastas `src` e `include`. Não modifique a pasta `.github`.
-+ Você deverá escrever um arquivo Makefile para gerenciar o processo de compilação.
-+ O arquivo executável deve ser direcionado para a pasta `bin` (não é preciso adicionar o executável ao repositório, apenas indicar o seu caminho no Makefile)
-+ Considere pi=3.1416
 
-**Este exercício é uma versão do original elaborado pelo Prof. Silvio Sampaio (IMD/UFRN)** 
 
